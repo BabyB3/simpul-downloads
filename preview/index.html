@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Download Simpul Inventory — BuildSimpul</title>
+<meta name="description" content="Download Simpul Inventory for Windows. Inventory management made simple — by BuildSimpul." />
+<style>
+  :root{
+    --bg:#faf9f5; --card:#ffffff; --line:#e7e1d6; --ink:#1b1815;
+    --soft:#6b6258; --accent:#F14A28; --accent-press:#d63c1e;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Inter","Segoe UI",Roboto,sans-serif;
+    -webkit-font-smoothing:antialiased; line-height:1.5;
+    min-height:100vh; display:flex; flex-direction:column;
+  }
+  header{padding:22px 22px 0; max-width:760px; margin:0 auto; width:100%}
+  .logo{display:inline-flex; align-items:center; gap:9px; text-decoration:none; color:var(--ink)}
+  .logo svg{display:block}
+  .logo b{font-weight:800; letter-spacing:-.02em; font-size:18px}
+  .wrap{flex:1; width:100%; max-width:760px; margin:0 auto; padding:34px 22px 48px;
+    display:flex; flex-direction:column; justify-content:center}
+  .eyebrow{font-size:13px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color:var(--accent); margin:0 0 10px}
+  h1{font-size:40px; line-height:1.08; letter-spacing:-.03em; font-weight:800; margin:0 0 12px}
+  .lede{font-size:19px; color:var(--soft); margin:0 0 8px; max-width:54ch}
+  .desc{font-size:16px; color:var(--soft); margin:0 0 28px; max-width:56ch}
+  .card{
+    background:var(--card); border:1px solid var(--line); border-radius:20px; padding:24px 22px;
+    box-shadow:0 18px 44px -30px rgba(27,24,21,.30); max-width:460px;
+  }
+  .row{display:flex; align-items:center; gap:12px; margin-bottom:16px}
+  .picon{width:46px;height:46px;border-radius:13px;background:var(--accent);
+    display:flex;align-items:center;justify-content:center;font-size:24px;flex:0 0 auto}
+  .pname{font-size:18px;font-weight:800;letter-spacing:-.01em;margin:0}
+  .pmeta{font-size:13px;color:var(--soft);margin:1px 0 0}
+  .btn{
+    display:flex; align-items:center; justify-content:center; gap:10px; width:100%;
+    padding:16px 20px; border-radius:14px; text-decoration:none;
+    background:var(--accent); color:#fff; font-size:17px; font-weight:800; letter-spacing:-.01em;
+    transition:background .15s ease, transform .05s ease;
+  }
+  .btn:hover{background:var(--accent-press)}
+  .btn:active{transform:translateY(1px)}
+  .fine{margin-top:14px; font-size:13px; color:var(--soft)}
+  .fine ul{margin:0; padding-left:18px}
+  .fine li{margin:4px 0}
+  .soon{margin-top:30px; font-size:14px; color:var(--soft); max-width:460px}
+  .soon .lbl{font-weight:800; letter-spacing:.04em; text-transform:uppercase; font-size:12px; color:var(--ink)}
+  .soon-row{display:flex; align-items:center; gap:9px; padding:9px 0; border-top:1px solid var(--line)}
+  .soon-row:first-of-type{border-top:none}
+  .soon-row .em{font-size:17px}
+  .soon-row .pill{margin-left:auto; font-size:11px; font-weight:700; color:var(--soft); background:#f3efe7; border:1px solid var(--line); padding:3px 9px; border-radius:999px}
+  footer{text-align:center; color:var(--soft); font-size:12.5px; padding:18px}
+  @media (max-width:480px){ h1{font-size:32px} .lede{font-size:17px} }
+</style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="/">
+      <svg width="26" height="26" viewBox="0 0 100 100" aria-hidden="true"><path d="M22 42 A30 30 0 0 0 78 42" fill="none" stroke="#F14A28" stroke-width="13" stroke-linecap="round"/></svg>
+      <b>BuildSimpul</b>
+    </a>
+  </header>
+
+  <main class="wrap">
+    <p class="eyebrow">BuildSimpul · Products</p>
+    <h1>Simpul Inventory</h1>
+    <p class="lede">Inventory management made simple.</p>
+    <p class="desc">Built to help small businesses spend less time counting inventory and more time running their business.</p>
+
+    <div class="card">
+      <div class="row">
+        <div class="picon" aria-hidden="true">📦</div>
+        <div>
+          <p class="pname">Simpul Inventory for Windows</p>
+          <p class="pmeta">RC1 — Dad Edition</p>
+        </div>
+      </div>
+      <a class="btn" href="https://github.com/BabyB3/simpul-downloads/releases/download/v0.9.0-rc1/Simpul-Inventory-Setup-1.0.0.exe">
+        ⬇ &nbsp;Download for Windows
+      </a>
+      <div class="fine">
+        <ul>
+          <li>Windows 10 / 11 · about 81 MB</li>
+          <li>First launch may show a Windows SmartScreen warning — this is an unsigned test build. Click <strong>More info → Run anyway</strong>.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="soon">
+      <div class="soon-row"><span class="lbl">More from BuildSimpul</span></div>
+      <div class="soon-row"><span class="em">✂️</span> Salon OS <span class="pill">Coming soon</span></div>
+      <div class="soon-row"><span class="em">⚖️</span> Case Clarity <span class="pill">Coming soon</span></div>
+      <div class="soon-row"><span class="em">🏢</span> Commercial Real Estate <span class="pill">Coming soon</span></div>
+    </div>
+  </main>
+
+  <footer>© BuildSimpul</footer>
+</body>
+</html>
